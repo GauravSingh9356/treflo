@@ -1,38 +1,101 @@
-.App {
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cart a {
+  background: orange;
+  padding: 12px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.bg-footer {
+  background-color: #1e2020;
+  padding: 50px 0 30px;
+}
+.footer-heading {
+  letter-spacing: 2px;
+}
+
+.footer-link a {
+  color: #acacac;
+  line-height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.footer-link a:hover {
+  color: orange;
+}
+
+.contact-info {
+  color: #acacac;
+  font-size: 14px;
+}
+
+.footer-social-icon {
+  font-size: 15px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 3px;
   text-align: center;
+  display: inline-block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.facebook {
+  background-color: #4e71a8;
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.twitter {
+  background-color: #55acee;
+  color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.google {
+  background-color: #d6492f;
+  color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.apple {
+  background-color: #424041;
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-alt {
+  color: #acacac;
+}
+
+.footer-heading {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer-heading:after {
+  content: '';
+  width: 25px;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid orange;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cart-box {
+  padding: 20px;
+  margin: 25px;
 }
